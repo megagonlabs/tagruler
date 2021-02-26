@@ -215,6 +215,10 @@ def initialize_from_task(MODE="reviews"):
         labels = {0: "CHEMICAL", 1:"DISEASE"} # TODO: should be erased before deploy
         task_name = "Bio-med chemical/disease extraction: Chemical or Disease"
         dataset_uuid = "bc5cdr"
+    elif MODE == "bc5cdr_example":
+        labels = {0: "CHEMICAL", 1:"DISEASE"} # TODO: should be erased before deploy
+        task_name = "Bio-med chemical/disease extraction: Chemical or Disease"
+        dataset_uuid = "bc5cdr_example"
     else:
         raise Error('MODE={} is not recognized.'.format(MODE))
 
