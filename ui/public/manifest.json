@@ -1,0 +1,15 @@
+{
+  "short_name": "Ruler",
+  "name": "Ruler: Data Programming by Demonstration for Text",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "64x64",
+      "type": "image/x-png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

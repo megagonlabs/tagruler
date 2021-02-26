@@ -1,0 +1,12 @@
+name: IDEA2 
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - snorkel==0.9.0
+  - spacy
+  - tensorflow
+  - flask
+  - connexion
+  - flask-cors
+

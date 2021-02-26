@@ -1,0 +1,11 @@
+*.DS_Store
+*/node_modules/*
+venv/*
+*/.idea/*
+*.ipynb
+.vscode/
+server/*/__pycache__/*
+ui/.eslintrc.js
+ui/package-lock.json
+server/venv/*
+.idea/*
