@@ -1,4 +1,4 @@
-# TagRuler: Interactive Tool for Span-Level Data Programming byDemonstration
+# TagRuler: Interactive Tool for Span-Level Data Programming by Demonstration
 This repo contains the source code and the user evaluation data for TagRuler, a data programming by demonstration system for span-level annotation.
 Check out our [demo video](https://youtu.be/MRc2elPaZKs) to see TagRuler in action!
 
