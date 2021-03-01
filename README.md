@@ -17,9 +17,8 @@ pip install -r requirements.txt
 
 ### 1-2. (Optional) Download Data Files
 
-- **Hotel** ([Download](https://drive.google.com/file/d/1tDsFvGFUg_QvUp4tsIi3TfirHNSnTdH4/view?usp=sharing)): Hotel reviews for Aspect-Opinion annotation
-- **Restaurant** ([Download](https://drive.google.com/file/d/1Avu0aMfvqEKn9DOon2dTUIvwjy0Hownh/view?usp=sharing)): Restaurant reviews for Aspect-Opinion annotation
-- **BC5CDR** ([Download](https://drive.google.com/file/d/1kKeINUOjtCVGr1_L3aC3qDo3-O-jr5hR/view?usp=sharing)): PubMed articles for Chemical-Disease annotation
+- **BC5CDR** ([Download Preprocessed Data](https://drive.google.com/file/d/1kKeINUOjtCVGr1_L3aC3qDo3-O-jr5hR/view?usp=sharing)): PubMed articles for Chemical-Disease annotation
+Li, Jiao & Sun, Yueping & Johnson, Robin & Sciaky, Daniela & Wei, Chih-Hsuan & Leaman, Robert & Davis, Allan Peter & Mattingly, Carolyn & Wiegers, Thomas & lu, Zhiyong. (2016). Original database URL: http://www.biocreative.org/tasks/biocreative-v/track-3-cdr/
 
 ### 1-3. Run :runner:
 
