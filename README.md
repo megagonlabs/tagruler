@@ -2,10 +2,18 @@
 This repo contains the source code and the user evaluation data for TagRuler, a data programming by demonstration system for span-level annotation.
 Check out our [demo video](https://youtu.be/MRc2elPaZKs) to see TagRuler in action!
 
+
+<h3 align="center">
+TagRuler synthesizes labeling functions based on your annotations, allowing you to quickly and easily generate large amounts of training data for span annotation, without the need to program. <br/>
+ <img width=800px src=tagruler-teaser.gif>
+</h3>
+
+
 # <a name='About'></a>What is TagRuler?
 
 In 2020, we introduced [Ruler](https://github.com/megagonlabs/ruler), a novel data programming by demonstration system that allows domain experts to leverage data programming without the need for coding.  Ruler generates document classification rules, but we knew that there was a bigger challenge left to tackle:  span-level annotations. This is one of the more time-consuming labelling tasks, and creating a DPBD system for this proved to be a challenge because of the sheer magnitude of the space of labeling functions over spans.
 
+We feel that this is a critical extension of the DPBD paradigm, and that by open-sourcing it, we can help with all kinds of labelling needs.
 
 # <a name='Use'></a>How to use the source code in this repo
 
