@@ -8,6 +8,9 @@ TagRuler synthesizes labeling functions based on your annotations, allowing you 
  <a href="https://youtu.be/MRc2elPaZKs"><img width=800px src=tagruler-teaser.gif></a>
 </h3>
 
+### Demo Video!
+
+https://youtu.be/MRc2elPaZKs
 
 # <a name='About'></a>What is TagRuler?
 
