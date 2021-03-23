@@ -5,7 +5,7 @@ Check out our [demo video](https://youtu.be/MRc2elPaZKs) to see TagRuler in acti
 
 <h3 align="center">
 TagRuler synthesizes labeling functions based on your annotations, allowing you to quickly and easily generate large amounts of training data for span annotation, without the need to program. <br/>
- <img width=800px src=tagruler-teaser.gif>
+ <a href="https://youtu.be/MRc2elPaZKs"><img width=800px src=tagruler-teaser.gif></a>
 </h3>
 
 
