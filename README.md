@@ -36,6 +36,8 @@ pip install -r requirements.txt
 - **BC5CDR** ([Download Preprocessed Data](https://drive.google.com/file/d/1kKeINUOjtCVGr1_L3aC3qDo3-O-jr5hR/view?usp=sharing)): PubMed articles for Chemical-Disease annotation
 Li, Jiao & Sun, Yueping & Johnson, Robin & Sciaky, Daniela & Wei, Chih-Hsuan & Leaman, Robert & Davis, Allan Peter & Mattingly, Carolyn & Wiegers, Thomas & lu, Zhiyong. (2016). Original database URL: http://www.biocreative.org/tasks/biocreative-v/track-3-cdr/
 
+- **Your Own Data** See instructions in [server/datasets](server/datasets)
+
 ### 1-3. Run :runner:
 
 ```
