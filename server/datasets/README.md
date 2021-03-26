@@ -1,3 +1,42 @@
+# Using Your Own Data
+
+We'll release some preprocessing code soon! Until then, you need to replicate the following file structure:
+
+```
+.
++-- datasets
+|   +-- your_dataset_here
+|   |   +-- processed.bert  
+|   |   +-- processed.csv  
+|   |   +-- processed.elmo
+|   |   +-- processed.nlp
+|   |   +-- processed.sbert
+|   +-- example_dataset_1
+|   +-- example_dataset_2
+```
+
+Where each file contains preprocessed data that follows the following schema:
+
+`processed.bert`
+\\TODO
+
+`processed.csv`
+|    | text                                                                                                                                                                                                                                                                                                                                       | labels                                                                                                                                        | split |
+|----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|-------|
+| 85 | angioedema due to ace inhibitors : common and inadequately diagnosed . the estimated incidence of angioedema during angiotensin - converting enzyme ( ace ) inhibitor treatment is between 1 and 7 per thousand patients . this potentially serious adverse effect is often preceded by minor manifestations that may serve as a warning . | I-DI,O,O,I-CH,I-CH,O,O,O,O,O,O,O,O,O,O,I-DI,O,I-CH,I-CH,I-CH,I-CH,I-CH,I-CH,I-CH,I-CH,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O | train |
+
+'split' is one of 'train', 'dev', 'test', 'valid', where the latter three have labels (for train, labels can be empty).
+
+`processed.elmo`
+\\TODO
+
+`processed.nlp`
+\\TODO
+
+`processed.sbert`
+\\TODO
+
+
 # Data Attribution
 
 
