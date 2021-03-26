@@ -29,6 +29,7 @@ Follow these instructions to run the system on your own, where you can plug in y
 ```shell
 cd server
 pip install -r requirements.txt
+python -m spacy download en_core_web_sm
 ```
 
 ### 1-2. (Optional) Download Data Files
