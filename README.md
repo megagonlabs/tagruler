@@ -63,3 +63,8 @@ npm start
 By default, the app will make calls to `localhost:5000`, assuming that you have the server running on your machine. (See the [instructions above](#Engine)).
 
 Once you have both of these running, navigate to `localhost:3000`.
+
+
+# Issues?
+
+...or other inquiries, contact <sara@megagon.ai> and/or <jin.choi@gatech.edu>.
