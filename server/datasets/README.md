@@ -17,23 +17,51 @@ We'll release some preprocessing code soon! Until then, you need to replicate th
 
 Where each file contains preprocessed data that follows the following schema:
 
-`processed.bert`
-\\TODO
-
-`processed.csv`
+`processed.csv` (csv format)
 |    | text                                                                                                                                                                                                                                                                                                                                       | labels                                                                                                                                        | split |
 |----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|-------|
 | 85 | angioedema due to ace inhibitors : common and inadequately diagnosed . the estimated incidence of angioedema during angiotensin - converting enzyme ( ace ) inhibitor treatment is between 1 and 7 per thousand patients . this potentially serious adverse effect is often preceded by minor manifestations that may serve as a warning . | I-DI,O,O,I-CH,I-CH,O,O,O,O,O,O,O,O,O,O,I-DI,O,I-CH,I-CH,I-CH,I-CH,I-CH,I-CH,I-CH,I-CH,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O | train |
 
 'split' is one of 'train', 'dev', 'test', 'valid', where the latter three have labels (for train, labels can be empty).
 
-`processed.elmo`
-\\TODO
+`processed.bert` ([npy](https://numpy.org/doc/stable/reference/generated/numpy.lib.format.html#module-numpy.lib.format) format)\
+A Numpy array of 2-D Numpy arrays. Each 2-D Numpy array is an array of BERT representations of tokens in a text data sample.
+```
+array([array([[ 0.024, -0.004, ..., -0.002, 0.061 ],
+              [ 0.059, -0.004, ..., -0.003, 0.044 ],
+               ...,
+              [ 0.048,  0.006, ...,  0.011, -0.016]], dtype=float32),
+        ...,
+        array([[-0.039, 0.090, ..., -0.002, -0.002 ],
+                ...,
+               [-0.019, 0.027, ..., -0.011,  0.045 ]], dtype=float32)], dtype=object)
 
-`processed.nlp`
-\\TODO
+```
 
-`processed.sbert`
+`processed.elmo` ([npy](https://numpy.org/doc/stable/reference/generated/numpy.lib.format.html#module-numpy.lib.format) format)\
+A Numpy array of 2-D Numpy arrays. Each 2-D Numpy array is an array of ELMo representations of tokens in a text data sample.
+```
+array([array([[ 0.024, -0.004, ..., -0.002, 0.061 ],
+              [ 0.059, -0.004, ..., -0.003, 0.044 ],
+               ...,
+              [ 0.048,  0.006, ...,  0.011, -0.016]], dtype=float32),
+        ...,
+        array([[-0.039, 0.090, ..., -0.002, -0.002 ],
+                ...,
+               [-0.019, 0.027, ..., -0.011,  0.045 ]], dtype=float32)], dtype=object)
+
+```
+
+`processed.sbert` ([npy](https://numpy.org/doc/stable/reference/generated/numpy.lib.format.html#module-numpy.lib.format) format)\
+A 2-D Numpy array which contains Sentence-BERT representations of text data samples. The shape of this array should be (N, V) where N is the number of text samples and V is the length of the Sentence-BERT representation.
+```
+array([[ 0.039,  0.011,  0.063, ..., -0.007, -0.004],
+       [-0.047, -0.048,  0.023, ..., -0.026, -0.054],
+       ...,
+       [-0.025, -0.024,  0.054, ..., -0.017, -0.048]], dtype=float32)
+```
+
+`processed.nlp`\
 \\TODO
 
 
