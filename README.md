@@ -2,15 +2,14 @@
 This repo contains the source code and the user evaluation data for TagRuler, a data programming by demonstration system for span-level annotation.
 Check out our [demo video](https://youtu.be/MRc2elPaZKs) to see TagRuler in action!
 
+Demonstration Video: https://youtu.be/MRc2elPaZKs
+
 
 <h3 align="center">
 TagRuler synthesizes labeling functions based on your annotations, allowing you to quickly and easily generate large amounts of training data for span annotation, without the need to program. <br/>
  <a href="https://youtu.be/MRc2elPaZKs"><img width=800px src=tagruler-teaser.gif></a>
 </h3>
 
-### Demo Video!
-
-https://youtu.be/MRc2elPaZKs
 
 # <a name='About'></a>What is TagRuler?
 
